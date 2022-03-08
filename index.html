@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Darío Vera García">
+    <meta name="description" content="Prestigioso Centro Médico Ñuñoa">
+    <meta name="keywords" content="Consultas médicas, atención especializada,  especialistas en Radiología, Traumatología, Dental">
+    <title>Centro Médico Ñuñoa</title>
+
+    <!-- BOOSTRAP CSS 5.1.3-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<!-- Requerimientos
+1. Crear la estructura de datos mediante arreglos y objetos. Debe crear 1 arreglo por cada listado (Radiología, Traumatología y Dental) y 1 objeto por cada fila de información que contengan los listados, considerando las propiedades establecidas
+en la descripción. 
+2. Mostrar por pantalla la primera y última atención de cada listado, desplegando el nombre del paciente junto con la previsión, separados por un guión (utilizar índices de arreglos para esto). Ej: Primera atención: Juan Pérez - Fonasa
+| Última atención: Ana Gálvez - Isapre. 
+3. Recorrer el arreglo y mostrar su contenido en una tabla. -->
+
+<body>
+    <h1 id="titulo" style="text-decoration-line:underline; text-align: center;">Estadísticas Centro Médico Ñuñoa</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 id="radiologia" style="margin-left: 85px;">Radiología</h2>
+    <br>
+    <div class="container" id="contenedor1">
+        <table class="table">
+            <thead>
+                <tr id="titulos_1">
+
+                </tr>
+            </thead>
+            <tbody id="valores_1">
+
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h2 id="traumatologia" style="margin-left: 85px;">Traumatología</h2>
+    <br>
+    <div class="container" id="contenedor2">
+        <table class="table">
+            <thead>
+                <tr id="titulos_2">
+
+                </tr>
+            </thead>
+            <tbody id="valores_2">
+
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h2 id="dental" style="margin-left: 85px;">Dental</h2>
+    <br>
+    <div class="container" id="contenedor3">
+        <table class="table">
+            <thead>
+                <tr id="titulos_3">
+
+                </tr>
+            </thead>
+            <tbody id="valores_3">
+
+            </tbody>
+        </table>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+    <br>
+    <h2 id="radiologia2" style=" text-align: center;">Radiología</h2>
+    <div class="container text-center" id="contenedor4">
+        <h3 id="primerUltimoPacienteRadiologia"></h3>
+        <br>
+    </div>
+
+    <h2 id="traumatologia2" style=" text-align: center;">Traumatología</h2>
+    <div class="container text-center" id="contenedor5">
+        <h3 id="primerUltimoPacienteTraumatologia"></h3>
+        <br>
+    </div>
+
+    <h2 id="dental2" style=" text-align: center;">Dental</h2>
+    <div class="container text-center" id="contenedor6">
+        <h3 id="primerUltimoPacienteDental"></h3>
+        <br>
+        <br>
+    </div>
+
+    <!-- BOOTSTRAP BUNDLE WITH POPPER -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="assets/js/myscript.js"></script>
+</body>
+
+</html>
